@@ -7,3 +7,7 @@ func Latir() string {
 func Latidos() string {
 	return "WOOF! WOOF! WOOF!"
 }
+
+func LatidoAlto() string {
+	return ""
+}
