@@ -1,6 +1,10 @@
 package dogao
 
-import "github.com/amonvix/dog"
+import (
+	"fmt"
+
+	"github.com/amonvix/dog"
+)
 
 func Latir() string {
 	return "WOOF!"
@@ -16,4 +20,8 @@ func LatidoAlto() string {
 
 func LatidoAltos() string {
 	return dog.QuandoCrescer(Latidos())
+}
+
+func From11() {
+	fmt.Println("I'm from version 1.1.0")
 }
